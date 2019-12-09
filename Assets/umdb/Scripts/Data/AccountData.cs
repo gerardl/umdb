@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace UMDB.Data
 {
-    public class InventoryData
+    public class AccountData
     {
+
     }
 }
