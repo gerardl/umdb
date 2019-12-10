@@ -9,11 +9,10 @@ namespace UMDB.Data
     public class PlayerData
     {
         public string Name { get; set; }
-        public string Account { get; set; }
-        public string Class { get; set; }
+        public string ClassName { get; set; }
         public int Health { get; set; }
         public int Mana { get; set; }
-        public int Strenght { get; set; }
+        public int Strength { get; set; }
         public string Constitution { get; set; }
         public int Dexterity { get; set; }
         public int Intelligence { get; set; }
@@ -25,10 +24,10 @@ namespace UMDB.Data
         public float X { get; set; }
         public float Y { get; set; }
         public float Z { get; set; }
-        public ICollection<PlayerSkillData> Skills { get; set; }
-        public ICollection<PlayerEffectData> Effects { get; set; }
-        public ICollection<PlayerQuestData> Quests { get; set; }
-        public ICollection<PlayerInventoryData> Inventory { get; set; }
-        public ICollection<PlayerEquipmentData> Equipment { get; set; }
+        public ICollection<SkillData> Skills { get; set; }
+        public ICollection<SkillData> Effects { get; set; }
+        public ICollection<QuestData> Quests { get; set; }
+        public ICollection<InventoryData> Inventory { get; set; }
+        public ICollection<EquipmentData> Equipment { get; set; }
     }
 }

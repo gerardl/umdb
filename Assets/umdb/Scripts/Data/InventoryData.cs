@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace UMDB.Data
 {
-    public class PlayerQuestData
+    public class InventoryData
     {
+        public string Name { get; set; }
+        public int Slot { get; set; }
+        public int Amount { get; set; }
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace UMDB.Data
 {
-    public class GuildData
+    public class SkillData
     {
         public string Name { get; set; }
-        public string Message { get; set; }
-        public DateTime DateCreated { get; set; }
+        public int Level { get; set; }
+        public float EffectEnd { get; set; }
+        public float CooldownEnd { get; set; }
     }
 }

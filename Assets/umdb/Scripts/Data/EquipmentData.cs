@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UMDB.Data
 {
-    public class PlayerInventoryData
+    public class EquipmentData
     {
     }
 }

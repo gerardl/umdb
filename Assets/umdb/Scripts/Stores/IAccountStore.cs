@@ -12,5 +12,6 @@ namespace UMDB.Stores
         bool Login(string username, string password);
         bool AccountExists(string username);
         bool CreateAccount(string username, string password);
+        void BanAccount(string username);
     }
 }
